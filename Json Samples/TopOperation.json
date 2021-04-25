@@ -1,0 +1,41 @@
+{
+   "table": "orders",
+   "top": "15",
+   "columns": [
+      {
+         "column": "order_id"
+      },
+      {
+         "column": "order_status"
+      },
+      {
+         "column": "customers.first_name"
+      },
+      {
+         "column": "stores.store_name"
+      }
+   ],
+   "where": [
+      {
+         "operator": "Equals",
+         "fieldName": "orders.store_id",
+         "fieldValue": "1"
+      }
+   ],
+   "join": [
+      {
+         "fieldFromjoin": "customer_id",
+         "table": "customers",
+         "fieldTojoin": "customer_id",
+         "operator": "Equals",
+         "joinType": "InnerJoin"
+      },
+      {
+         "fieldFromjoin": "store_id",
+         "table": "stores",
+         "fieldTojoin": "store_id",
+         "operator": "Equals",
+         "joinType": "InnerJoin"
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+{
+   "table": "orders",
+   "top": "0",
+   "columns": [],
+   "where": [
+      {
+         "operator": "GreaterOrEquals",
+         "fieldName": "orders.order_date",
+         "fieldValue": "2019-01-01",
+         "andOrClause": [
+            {
+               "logicalOperator": "and",
+               "fieldValue": "2020-01-01",
+               "operator": "LessThan"
+            }
+         ]
+      }
+   ],
+   "join": []
+}

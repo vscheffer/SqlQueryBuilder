@@ -1,0 +1,13 @@
+{
+    "table": "customers",
+    "top": "0",
+    "columns": [],
+    "where": [
+       {
+          "operator": "Like",
+          "fieldName": "customers.first_name",
+          "fieldValue": "Deb"
+       }
+    ],
+    "join": []
+ }

@@ -1,0 +1,13 @@
+{
+   "table": "orders",
+   "top": "0",
+   "columns": [],
+   "where": [
+      {
+         "operator": "Equals",
+         "fieldName": "orders.store_id",
+         "fieldValue": "1"
+      }
+   ],
+   "join": []
+}
