@@ -18,8 +18,19 @@ Export all Json stored in the database with the output query generated in the gi
 
 
 Sample Json extruture
-`
-{
+
+Operators:
+* Equals
+* NotEquals
+* Like
+* NotLike
+* GreaterThan
+* GreaterOrEquals
+* LessThan
+* LessOrEquals
+* In
+
+`{
    "table": "orders",
    "top": "0",
    "columns": [],
@@ -31,7 +42,6 @@ Sample Json extruture
       }
    ],
    "join": []
-}
-`
+}`
 
 ** The Sql query transform engine was based on the following article https://www.codeproject.com/Articles/13419/SelectQueryBuilder-Building-complex-and-flexible-S 
