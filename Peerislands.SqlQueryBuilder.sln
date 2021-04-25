@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peerislands.SqlQueryBuilder", "src\Peerislands.SqlQueryBuilder\Peerislands.SqlQueryBuilder.csproj", "{77330BC5-8E35-4325-A0E5-DE308B515166}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.SqlQueryBuilder.Core", "src\Peerislands.SqlQueryBuilder.Core\Peerislands.SqlQueryBuilder.Core.csproj", "{4B57DEEE-E821-4230-858C-C80B3246E3E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.SqlQueryBuilder.Data", "src\Peerislands.SqlQueryBuilder.Data\Peerislands.SqlQueryBuilder.Data.csproj", "{C9F12A01-A6DE-41FC-903B-FC7087E1EDEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peerislands.SqlQueryBuilder.Test", "Peerislands.SqlQueryBuilder.Test\Peerislands.SqlQueryBuilder.Test.csproj", "{0A81D801-605A-4A2F-9A4F-B27F5875D342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77330BC5-8E35-4325-A0E5-DE308B515166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77330BC5-8E35-4325-A0E5-DE308B515166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77330BC5-8E35-4325-A0E5-DE308B515166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77330BC5-8E35-4325-A0E5-DE308B515166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B57DEEE-E821-4230-858C-C80B3246E3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B57DEEE-E821-4230-858C-C80B3246E3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B57DEEE-E821-4230-858C-C80B3246E3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B57DEEE-E821-4230-858C-C80B3246E3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F12A01-A6DE-41FC-903B-FC7087E1EDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F12A01-A6DE-41FC-903B-FC7087E1EDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F12A01-A6DE-41FC-903B-FC7087E1EDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F12A01-A6DE-41FC-903B-FC7087E1EDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A81D801-605A-4A2F-9A4F-B27F5875D342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A81D801-605A-4A2F-9A4F-B27F5875D342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A81D801-605A-4A2F-9A4F-B27F5875D342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A81D801-605A-4A2F-9A4F-B27F5875D342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13F04EF1-5700-4634-8F44-494070F60718}
+	EndGlobalSection
+EndGlobal
